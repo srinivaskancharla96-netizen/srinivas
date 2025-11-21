@@ -3,43 +3,168 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kancharla Srinivas</title>
+  <title>Follicare Skin & Hair Wellness Clinic</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 
-<body class="bg-gradient-to-r from-purple-200 via-pink-100 to-blue-200 min-h-screen flex flex-col items-center justify-center text-center">
-  <div class="max-w-2xl bg-white bg-opacity-80 shadow-lg rounded-2xl p-10">
-    <h1 class="text-4xl font-bold text-purple-800 mb-4">Kancharla Srinivas</h1>
-    <p class="text-lg text-gray-700 mb-6">Welcome to my personal page.</p>
-    <p class="text-gray-600 mb-8">This is a simple personal site created as an example. More details can be added here later if desired.</p>
+<body class="bg-gray-50 text-gray-800">
 
-    <!-- 🌐 Social Media Section -->
-    <div class="flex justify-center space-x-6 mt-4">
-      <!-- Facebook -->
-      <a href="https://facebook.com/" target="_blank" class="text-blue-600 hover:scale-110 transition-transform" title="Facebook">
-        <i data-lucide="facebook" class="w-8 h-8"></i>
-      </a>
-
-      <!-- Instagram -->
-      <a href="https://instagram.com/" target="_blank" class="text-pink-500 hover:scale-110 transition-transform" title="Instagram">
-        <i data-lucide="instagram" class="w-8 h-8"></i>
-      </a>
-
-      <!-- LinkedIn -->
-      <a href="https://linkedin.com/" target="_blank" class="text-blue-700 hover:scale-110 transition-transform" title="LinkedIn">
-        <i data-lucide="linkedin" class="w-8 h-8"></i>
-      </a>
-
-      <!-- YouTube -->
-      <a href="https://youtube.com/" target="_blank" class="text-red-600 hover:scale-110 transition-transform" title="YouTube">
-        <i data-lucide="youtube" class="w-8 h-8"></i>
-      </a>
-    </div>
+<!-- TOP BAR -->
+<header class="bg-white shadow-md sticky top-0 z-50">
+  <div class="max-w-7xl mx-auto flex items-center justify-between p-4">
+    <h1 class="text-2xl font-bold text-green-700">Follicare Clinic</h1>
+    <nav class="hidden md:flex space-x-8 text-gray-700 font-medium">
+      <a href="#home" class="hover:text-green-600">Home</a>
+      <a href="#treatments" class="hover:text-green-600">Treatments</a>
+      <a href="#doctors" class="hover:text-green-600">Doctors</a>
+      <a href="#gallery" class="hover:text-green-600">Gallery</a>
+      <a href="#contact" class="hover:text-green-600">Contact</a>
+    </nav>
   </div>
+</header>
 
-  <script>
-    lucide.createIcons(); // Initialize icons
-  </script>
+<!-- HERO SECTION -->
+<section id="home" class="relative">
+  <img src="https://images.unsplash.com/photo-1580281657521-94a4f6f9e8c0?auto=format&fit=crop&w=1600&q=80" 
+       class="w-full h-[85vh] object-cover opacity-90">
+  
+  <div class="absolute inset-0 bg-black bg-opacity-40 flex flex-col items-center justify-center text-center px-6">
+    <h2 class="text-4xl md:text-5xl font-bold text-white">
+      Advanced Skin & Hair Care You Can Trust
+    </h2>
+    <p class="text-white text-lg mt-4 max-w-2xl">
+      Science-backed treatments • Expert Doctors • Modern Technology • Natural Results
+    </p>
+    <a href="https://wa.me/xxxxxxxxxx"
+       class="mt-6 bg-green-600 text-white px-10 py-3 rounded-full text-lg font-semibold shadow-xl hover:bg-green-700">
+      Book Appointment
+    </a>
+  </div>
+</section>
+
+<!-- PREMIUM TREATMENTS -->
+<section id="treatments" class="py-20 bg-gradient-to-b from-green-50 to-white">
+  <h3 class="text-center text-3xl font-bold text-green-800">Our Premium Treatments</h3>
+  <p class="text-center text-gray-600 mt-3">World-class aesthetic procedures for skin & hair</p>
+
+  <div class="mt-12 grid gap-10 max-w-7xl mx-auto px-6 md:grid-cols-3">
+
+    <!-- Treatment Card -->
+    <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition p-6">
+      <img src="https://images.unsplash.com/photo-1612531386533-1f5a1c9f33e1?auto=format&fit=crop&w=800&q=80"
+           class="rounded-xl mb-4 h-48 w-full object-cover">
+      <h4 class="text-green-700 font-bold text-xl">Hair Transplantation</h4>
+      <p class="text-gray-600 mt-2">
+        Natural, permanent hair restoration using the most advanced FUE techniques.
+      </p>
+    </div>
+
+    <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition p-6">
+      <img src="https://images.unsplash.com/photo-1600185365483-26d7d95b585c?auto=format&fit=crop&w=800&q=80"
+           class="rounded-xl mb-4 h-48 w-full object-cover">
+      <h4 class="text-green-700 font-bold text-xl">GFC & PRP Hair Regrowth</h4>
+      <p class="text-gray-600 mt-2">
+        Boosts hair density, reduces hair fall and revitalizes your scalp naturally.
+      </p>
+    </div>
+
+    <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition p-6">
+      <img src="https://images.unsplash.com/photo-1620917669811-3b2d37f3587f?auto=format&fit=crop&w=800&q=80"
+           class="rounded-xl mb-4 h-48 w-full object-cover">
+      <h4 class="text-green-700 font-bold text-xl">Laser Skin Whitening</h4>
+      <p class="text-gray-600 mt-2">
+        Achieve glowing, brighter skin with safe, advanced laser technology.
+      </p>
+    </div>
+
+    <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition p-6">
+      <img src="https://images.unsplash.com/photo-1556228724-4c7456abd8e9?auto=format&fit=crop&w=800&q=80"
+           class="rounded-xl mb-4 h-48 w-full object-cover">
+      <h4 class="text-green-700 font-bold text-xl">Acne & Scar Revision</h4>
+      <p class="text-gray-600 mt-2">
+        Advanced scar reduction and acne control performed by expert dermatologists.
+      </p>
+    </div>
+
+    <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition p-6">
+      <img src="https://images.unsplash.com/photo-1600093463592-5e8e3d19af7f?auto=format&fit=crop&w=800&q=80"
+           class="rounded-xl mb-4 h-48 w-full object-cover">
+      <h4 class="text-green-700 font-bold text-xl">Laser Hair Removal</h4>
+      <p class="text-gray-600 mt-2">
+        Painless, permanent hair reduction using US-FDA approved machines.
+      </p>
+    </div>
+
+    <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition p-6">
+      <img src="https://images.unsplash.com/photo-1599058917212-d750089bc07e?auto=format&fit=crop&w=800&q=80"
+           class="rounded-xl mb-4 h-48 w-full object-cover">
+      <h4 class="text-green-700 font-bold text-xl">Dandruff & Scalp Detox</h4>
+      <p class="text-gray-600 mt-2">
+        Deep scalp cleansing and dandruff treatment for long-lasting results.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<!-- DOCTORS SECTION -->
+<section id="doctors" class="py-20 bg-white">
+  <h3 class="text-center text-3xl font-bold text-green-800">Meet Our Expert Doctors</h3>
+
+  <div class="grid md:grid-cols-2 gap-10 max-w-6xl mx-auto px-6 mt-12">
+
+    <div class="text-center bg-green-50 p-8 rounded-2xl shadow hover:shadow-xl transition">
+      <img src="https://images.unsplash.com/photo-1550831107-1553da8c8464?auto=format&fit=crop&w=600&q=80"
+           class="w-40 h-40 rounded-full mx-auto mb-4 object-cover">
+      <h4 class="text-xl font-bold text-green-700">Dr. Aesthetic Expert</h4>
+      <p class="mt-2 text-gray-600">MD Dermatology • 10+ Years Experience</p>
+    </div>
+
+    <div class="text-center bg-green-50 p-8 rounded-2xl shadow hover:shadow-xl transition">
+      <img src="https://images.unsplash.com/photo-1507101105822-7472b28e22ac?auto=format&fit=crop&w=600&q=80"
+           class="w-40 h-40 rounded-full mx-auto mb-4 object-cover">
+      <h4 class="text-xl font-bold text-green-700">Dr. Hair Specialist</h4>
+      <p class="mt-2 text-gray-600">Hair Transplant Surgeon • 12+ Years Experience</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery" class="py-20 bg-green-50">
+  <h3 class="text-center text-3xl font-bold text-green-800">Clinic Gallery</h3>
+
+  <div class="grid md:grid-cols-3 gap-6 max-w-7xl mx-auto px-6 mt-12">
+    <img src="https://images.unsplash.com/photo-1584982751601-97dcc096659c?auto=format&fit=crop&w=800&q=80"
+         class="rounded-xl shadow-lg">
+    <img src="https://images.unsplash.com/photo-1580281658181-685c6a67354d?auto=format&fit=crop&w=800&q=80"
+         class="rounded-xl shadow-lg">
+    <img src="https://images.unsplash.com/photo-1580281658305-43dfd16f1ff3?auto=format&fit=crop&w=800&q=80"
+         class="rounded-xl shadow-lg">
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="py-20 bg-white">
+  <h3 class="text-center text-3xl font-bold text-green-800 mb-6">Contact Us</h3>
+
+  <div class="text-center text-lg">
+    <p>📍 Nellore, Andhra Pradesh</p>
+    <p class="mt-2">📞 +91 XXXXX XXXXX</p>
+    <p class="mt-2">✉ support@follicareclinic.com</p>
+
+    <a href="https://wa.me/xxxxxxxxxx"
+       class="mt-6 inline-block bg-green-600 text-white px-10 py-3 rounded-full font-semibold hover:bg-green-700">
+      Chat on WhatsApp
+    </a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-green-900 text-white text-center py-4">
+  © 2025 Follicare Skin & Hair Wellness Clinic. All Rights Reserved.
+</footer>
+
 </body>
 </html>
